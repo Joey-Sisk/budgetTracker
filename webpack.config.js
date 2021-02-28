@@ -6,7 +6,7 @@ const config = {
   entry: "./public/index.js",
   output: {
     // Set the path and filename for the output bundle (hint: You will need to use "__dirname")
-    path: __dirname + "/dist",
+    path: path.resolve(__dirname, "/dist"),
     filename: "bundle.js",
   },
   mode: "development",
@@ -23,10 +23,7 @@ const config = {
       display: "standalone",
       icons: [
         {
-          src: path.resolve(
-            __dirname,
-            "./public/icons/icon-512x512.png"
-          ),
+          src: path.resolve("./public/icons/icon-512x512.png"),
           sizes: [96, 128, 192, 256, 384, 512],
         },
       ],
