@@ -3,11 +3,14 @@ const path = require("path");
 
 const config = {
   // Update the entry point
-  entry: "./public/index.js",
+  entry: {
+    app: "./public/index.js",
+    db: "./public/db.js",
+  },
   output: {
     // Set the path and filename for the output bundle (hint: You will need to use "__dirname")
-    path: path.resolve(__dirname, "/dist"),
-    filename: "bundle.js",
+    path: __dirname + "/public/dist",
+    filename: "[name].bundle.js",
   },
   mode: "development",
   plugins: [
