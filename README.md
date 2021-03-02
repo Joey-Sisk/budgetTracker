@@ -1,9 +1,9 @@
-# Fitness Tracker
+# Budget Tracker
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
 
-This Express Mongo DB web application is designed to allow a user to log information about their exercise routine and view data concerning the workouts as graphs. Mongoose is used as a JavaScript framework in order to connect to and manipulate my NoSQL Mongo database. 
+This Express Mongo DB web application is designed to allow a user track information about their finances and view data concerning their spending and income as a graph. Mongoose is used as a JavaScript framework in order to connect to and manipulate my NoSQL Mongo database and webpacks are used to compress the application for improved performance while a service worker allows for editing of data while offline. 
 
 ## Table of Contents
 
@@ -34,7 +34,7 @@ This Express Mongo DB web application is designed to allow a user to log informa
   
 ## Contributing
 
-This would not have been possible without the help of my tutor Kumar Ramanathan, my instructor Calvin Carter, all of the class TA's including Sean Belverstone, Daniel Vega, and Brennan Predmoré, and my fellow UT Bootcamp student Priya Garg and many others.
+This would not have been possible without the help of my tutor Kumar Ramanathan, my instructor Calvin Carter, all of the class TA's including Sean Belverstone, Daniel Vega, and Brennan Predmoré, and my fellow UT Bootcamp students and many others.
 
 ## Questions
 
