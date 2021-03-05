@@ -19,12 +19,11 @@ This Express Mongo DB web application is designed to allow a user track informat
 
 ## Link
 
-[This link will take you to the deployed site on Heroku!](https://shielded-chamber-42696.herokuapp.com/)
+[This link will take you to the deployed site on Heroku!](https://joey-sisks-budget-tracker.herokuapp.com/)
 
 ## Screenshot
 
 ![First Screenshot](./images/screenshot1.png)
-![Second Screenshot](./images/screenshot2.png)
 
 ## License
 
